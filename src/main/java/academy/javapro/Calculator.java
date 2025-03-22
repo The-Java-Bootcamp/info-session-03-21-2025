@@ -13,7 +13,8 @@ public class Calculator {
 
             System.out.println("Sum: " + (num1 + num2));
             System.out.println("Product: " + (num1 * num2));
-        } catch (NumberFormatException e) {
+        }
+         catch (NumberFormatException e) {
             System.out.println("Error: Please provide valid numbers");
         }
     }
